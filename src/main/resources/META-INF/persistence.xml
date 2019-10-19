@@ -2,7 +2,7 @@
              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
              version="2.0">
-    <persistence-unit name="Facultate" transaction-type="RESOURCE_LOCAL">
+    <persistence-unit name="GreenShop" transaction-type="RESOURCE_LOCAL">
         <!-- Persistence provider -->
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 
@@ -10,10 +10,9 @@
         <class>com.UG.model.Product</class>
 
 
-
         <properties>
             <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
-            <property name="javax.persistence.jdbc.url"    value="jdbc:mysql://localhost:3306/facultate" />
+            <property name="javax.persistence.jdbc.url"    value="jdbc:mysql://localhost:3306/greenshop" />
             <property name="javax.persistence.jdbc.user" value="root" />
             <property name="javax.persistence.jdbc.password" value="Ritamax54" />
 

@@ -1,6 +1,13 @@
 package com.UG.model;
 
+import javax.persistence.*;
+
+@Entity
+@Table
 public class Product {
+    @Id
+    @Column(name = "id")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String ProductName;
     private String Unit;
