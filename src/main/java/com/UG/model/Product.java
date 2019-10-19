@@ -54,4 +54,5 @@ public class Product {
     public void setPrice(double price) {
         Price = price;
     }
+
 }
