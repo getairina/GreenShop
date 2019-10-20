@@ -1,4 +1,4 @@
 package com.UG.controller;
 
-public class Controller {
+public class AddController {
 }
