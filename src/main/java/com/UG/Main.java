@@ -20,9 +20,9 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("main.fxml"));
+        Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("view/main.fxml"));
 
-        primaryStage.setTitle("Hello World"); // title of window
+        primaryStage.setTitle("Green Shop"); // title of window
         primaryStage.setScene(new Scene(root, 600, 800));
 
         primaryStage.show(); // show the actual window

@@ -8,6 +8,7 @@
 
         <!-- Entity classes -->
         <class>com.UG.model.Product</class>
+        <class>com.UG.model.Client</class>
 
 
         <properties>
